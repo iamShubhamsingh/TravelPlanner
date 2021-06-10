@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 10;
+	font-family: Century Gothic;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../traveler.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	text-align: center;
+	margin: 50px auto 120px;
+	color: #000;
+}
+.main{
+	width: 100%;
+	min-height: 380px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+.service{
+	background: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 0;
+	box-shadow: 0 0 20px -15px #030380;
+	transition: transform .8s;
+}
+}
+.service h4{
+	height: 35px;
+	width: 80%;
+	color: #000;
+	margin: 50px auto;
+	position: relative;
+}
+.shadowone{
+	height: 200px;
+	width: 80%;
+	background: #fff;
+	position: absolute;
+	border-radius: 10px;
+	bottom: 0;
+	left: 10%;
+	z-index: -1;
+	box-shadow: 0 0 20px -15px #030380;
+	transition: transform .8s;
+}
+.main:hover .service{
+	transform: translateY(-50px);
+}
